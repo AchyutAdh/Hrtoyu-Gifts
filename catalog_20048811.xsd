@@ -1,0 +1,74 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="hrtoyu_gifts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nav">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="name" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="details">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="logo"/>
+              <xs:element name="desc">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="name"/>
+                    <xs:element type="xs:string" name="description"/>
+                    <xs:element type="xs:string" name="address"/>
+                    <xs:element type="xs:string" name="contactNo"/>
+                    <xs:element type="xs:anyURI" name="Website"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="gifts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="card" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType mixed="true">
+                  <xs:sequence>
+                    <xs:element name="cardlogo">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:byte" name="cardlogoID" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="CardName"/>
+                    <xs:element type="xs:string" name="Price"/>
+                    <xs:element type="xs:short" name="Expiry"/>
+                    <xs:element type="xs:string" name="country"/>
+                    <xs:element type="xs:string" name="discount"/>
+                    <xs:element type="xs:string" name="server"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="cardid" use="optional"/>
+                  <xs:attribute type="xs:string" name="company" use="optional"/>
+                  <xs:attribute type="xs:string" name="type" use="optional"/>
+                  <xs:attribute type="xs:string" name="category" use="optional"/>
+                  <xs:attribute type="xs:byte" name="NoOfUse" use="optional"/>
+                  <xs:attribute type="xs:string" name="Discount" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="footer">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="name"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="Storename"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

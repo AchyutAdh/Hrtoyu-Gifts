@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="catelog_20048811.css" type="text/css"?>
+<hrtoyu_gifts Storename="HrtoyugiftShop" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_20048811.xsd">
+    <nav>
+        <name>HrtoyuGifts</name>
+        <name>Home</name>
+        <name>About us</name>
+        <name>Contact</name>
+    </nav>
+        <details>
+        <logo/>
+        <desc>
+        <name>HrtoyuGifts</name>
+        <description>Literally meaning Heart to connect, Which sales genuine Gift cards.</description>
+        <address>Address: London United Kingdom</address>
+        <contactNo>Contact No: +44 2234718002</contactNo>
+        <Website>www.hrtoyugifts.de</Website>
+    </desc>
+</details>
+    
+    <gifts>
+        <card  cardid="Card01" company="Google" type="Physical" category="discount" NoOfUse="1" Discount="True">
+         <cardlogo cardlogoID="01" />
+             <CardName>GoogleGiftCard</CardName>
+             <Price>10$</Price>   
+             <Expiry>2025</Expiry>
+             <country>Nepal</country>
+             <discount>10%</discount>
+             <server>local</server>
+        </card>
+    
+        <card  cardid="Card02" company="Amazon" type="Physical" category="discount" NoOfUse="5" Discount="False">
+         <cardlogo cardlogoID="02" />
+             <CardName>AmazonGiftCard</CardName>
+             <Price>10$</Price>   
+             <Expiry>2025</Expiry>
+             <country>Nepal</country>
+             <discount>10%</discount>
+             <server>local</server>
+        </card>
+    
+        <card  cardid="Card03" company="Riot" type="Digital" category="Voucher" NoOfUse="3" Discount="False">
+         <cardlogo cardlogoID="03" />
+             <CardName>RiotGiftCard</CardName>
+             <Price>15$</Price>   
+             <Expiry>2025</Expiry>
+             <country>Nepal</country>
+             <discount>15%</discount>
+             <server>Eu</server>
+        </card>
+
+        <card  cardid="Card04" company="Steam" type="Digital" category="discount" NoOfUse="4" Discount="True">
+         <cardlogo cardlogoID="04" />
+             <CardName>SteamGiftCard</CardName>
+             <Price>10$</Price>   
+             <Expiry>2025</Expiry>
+             <country>Nepal</country>
+             <discount>10%</discount>
+             <server>local</server>
+        </card>
+
+        <card  cardid="Card05" company="Netflix" type="Digital" category="discount" NoOfUse="2" Discount="False">
+         <cardlogo cardlogoID="05" />
+             <CardName>NetflixGiftCard</CardName>
+             <Price>50$</Price>   
+             <Expiry>2023</Expiry>
+             <country>Nepal</country>
+             <discount>10%</discount>
+             <server>local</server>
+        </card>
+
+        <card  cardid="Card06" company="tify" type="Digital" category="Voucher" NoOfUse="8" Discount="True">
+         <cardlogo cardlogoID="06" />
+             <CardName>tifyGiftCard</CardName>CardName>
+             <Price>5$</Price>   
+             <Expiry>2026</Expiry>
+             <country>Nepal</country>
+             <discount>10%</discount>
+             <server>local</server>
+        </card>
+
+        <card  cardid="Card07" company="Discord" type="Digital" category="discount" NoOfUse="50" Discount="False">
+         <cardlogo cardlogoID="07" />
+             <CardName>DiscordGiftCard</CardName>
+             <Price>15$</Price>   
+             <Expiry>2028</Expiry>
+             <country>Nepal</country>
+             <discount>10%</discount>
+             <server>local</server>
+        </card>
+
+        <card  cardid="Card08" company="Apple" type="Physical" category="discount" NoOfUse="5" Discount="True">
+         <cardlogo cardlogoID="08" />
+             <CardName>AppleGiftCard</CardName>
+             <Price>100$</Price>   
+             <Expiry>2024</Expiry>
+             <country>Nepal</country>
+             <discount>10%</discount>
+             <server>local</server>
+        </card>
+
+       
+
+        <card  cardid="Card09" company="Daraz" type="Physical" category="discount" NoOfUse="4" Discount="True">
+         <cardlogo cardlogoID="09"/>
+             <CardName>DarazGiftCard</CardName>
+             <Price>100$</Price>   
+             <Expiry>2025</Expiry>
+             <country>Nepal</country>
+             <discount>10%</discount>
+             <server>local</server>
+        </card>
+    </gifts>
+    <footer>
+        <name>Copyright Hryotu &#169; </name>
+    </footer>
+</hrtoyu_gifts>

@@ -1,0 +1,146 @@
+hrtoyu_gits {
+    display: flex;
+    flex-direction: column;
+    color: green;
+    font-size: 40px;
+    background-color: palegoldenrod;
+}
+
+details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(73, 0, 0);
+}
+
+logo {
+    background-image: url("css/logi.png");
+    background-size: 150px;
+    height: 150px;
+    width: 50px;
+    align-content: center;
+    padding-right: 100px;
+}
+
+desc {
+    display: flex;
+    flex-direction: column;
+}
+
+gifts {
+    font-size: 80%;
+    margin: 0.5em;
+    font-family: Verdana;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(50, 0, 0);
+}
+
+card {
+    background-color: purple;
+    color: black;
+    height: 338px;
+    width: 335px;
+    border: 2px solid red;
+    margin-right: 60px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+cardlogo[cardlogoID="01"] {
+    background-image: url("css/Google__G__Logo.svg.png");
+    background-size: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+cardlogo[cardlogoID="02"] {
+    background-image: url("css/amazon_PNG5.png");
+    background-size: 97px;
+    height: 82px;
+    width: 100px;
+}
+
+cardlogo[cardlogoID="03"] {
+    background-image: url("css/riot-games-logo.png");
+    background-size: 100px;
+    height: 32px;
+    width: 100px;
+}
+
+cardlogo[cardlogoID="04"] {
+    background-image: url("css/steam-logo-transparent.png");
+    background-size: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+cardlogo[cardlogoID="05"] {
+    background-image: url("css/netflix_PNG15.png");
+    background-size: 100px;
+    height: 151px;
+    width: 100px;
+}
+
+cardlogo[cardlogoID="06"] {
+    background-image: url("css/file-tify-logo-png-4.png");
+    background-size: 80px;
+    height: 81px;
+    width: 80px;
+}
+
+cardlogo[cardlogoID="07"] {
+    background-image: url("css/discord-logo-logodownload-download-logotipos-1.png");
+    background-size: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+cardlogo[cardlogoID="08"] {
+    background-image: url("css/Apple-logo.png");
+    background-size: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+cardlogo[cardlogoID="09"] {
+    background-image: url("css/Daraz_Logo.png");
+    background-size: 227px;
+    height: 100px;
+    width: 77px;
+}
+
+card:hover {
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blueviolet;
+    border: 4px solid red;
+    font-size: xx-large;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: blueviolet;
+    border: 2px solid red;
+    font-size: xx-large;
+}
+
+nav:hover {
+    background-color: white;
+}
+
+details:hover {
+    background-color: aliceblue;
+}
